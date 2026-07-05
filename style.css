@@ -1,4 +1,10 @@
-*{
+.ticker{
+    background:#ff9800;
+    color:#fff;
+    padding:10px;
+    font-size:18px;
+    font-weight:bold;
+}*{
 margin:0;
 padding:0;
 box-sizing:border-box;
