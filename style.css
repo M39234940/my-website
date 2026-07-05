@@ -178,3 +178,12 @@ animation:blink 2s infinite;
 opacity:0.6;
 }
 }
+.visitor{
+text-align:center;
+font-size:20px;
+font-weight:bold;
+padding:20px;
+background:#e3f2fd;
+margin:20px;
+border-radius:10px;
+}
