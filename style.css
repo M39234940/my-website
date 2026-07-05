@@ -1050,3 +1050,22 @@ font-weight:bold;
     cursor:pointer;
     margin-left:10px;
 }
+.ai-chat{
+position:fixed;
+bottom:20px;
+left:20px;
+width:320px;
+background:white;
+padding:15px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.3);
+z-index:9999;
+}
+
+#chatBox{
+height:180px;
+overflow:auto;
+border:1px solid #ddd;
+padding:10px;
+margin-bottom:10px;
+}
