@@ -517,3 +517,27 @@ console.log("🚀 Study With Muskan UPSC Firebase Ready");
 showNotification("Firebase Connected Successfully");
 
 };
+window.uploadPDFNow = async function () {
+
+const file = document.getElementById("pdfFile").files[0];
+const title = document.getElementById("pdfTitle").value;
+
+if (!file || !title) {
+    alert("PDF और Title दोनों भरें");
+    return;
+}
+
+try {
+    const url = await uploadPDF(file);
+    await savePDF(title, url);
+
+    alert("✅ PDF Successfully Uploaded");
+
+    document.getElementById("pdfTitle").value = "";
+    document.getElementById("pdfFile").value = "";
+
+} catch (err) {
+    alert(err.message);
+}
+
+};
