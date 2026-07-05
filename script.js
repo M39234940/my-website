@@ -228,3 +228,6 @@ const minutes = Math.floor((gap%(1000*60*60))/(1000*60));
 
 countdownBox.innerHTML =
 days+" Days "+
+function toggleDarkMode(){
+    document.body.classList.toggle("dark-mode");
+}
