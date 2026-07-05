@@ -231,3 +231,18 @@ days+" Days "+
 function toggleDarkMode(){
     document.body.classList.toggle("dark-mode");
 }
+function replyAI(){
+
+let msg=document.getElementById("userMsg").value;
+
+let box=document.getElementById("chatBox");
+
+box.innerHTML += "<p><b>You:</b> "+msg+"</p>";
+
+box.innerHTML += "<p><b>AI:</b> यह Demo Chat है। जल्द ही यहाँ असली AI जोड़ा जाएगा।</p>";
+
+document.getElementById("userMsg").value="";
+
+box.scrollTop=box.scrollHeight;
+
+}
