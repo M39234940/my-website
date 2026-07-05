@@ -164,3 +164,17 @@ transition:0.3s;
 background:#ff5722;
 transform:scale(1.05);
 }
+.notice{
+background:#ffeb3b;
+color:#000;
+text-align:center;
+padding:12px;
+font-weight:bold;
+animation:blink 2s infinite;
+}
+
+@keyframes blink{
+50%{
+opacity:0.6;
+}
+}
