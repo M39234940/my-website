@@ -261,3 +261,25 @@ border-radius:15px;
 margin-top:20px;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
+.search-box{
+text-align:center;
+margin:20px;
+}
+
+.search-box input{
+width:60%;
+padding:12px;
+border:2px solid #0d47a1;
+border-radius:8px;
+font-size:16px;
+}
+
+.search-box button{
+padding:12px 20px;
+background:#0d47a1;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-left:10px;
+}
