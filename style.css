@@ -91,3 +91,25 @@ text-align:center;
 padding:20px;
 margin-top:30px;
 }
+.dark{
+  background:#121212;
+  color:white;
+}
+
+.dark .header{
+  background:#000;
+}
+
+.dark .hero{
+  background:#1e1e1e;
+  color:white;
+}
+
+.dark .card{
+  background:#2b2b2b;
+  color:white;
+}
+
+.dark .footer{
+  background:#000;
+}
