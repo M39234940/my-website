@@ -921,3 +921,28 @@ transform:scale(1.08);
     color:#ddd;
     margin-top:5px;
 }
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:40px;
+    background:#f4f9ff;
+}
+
+.feature-card{
+    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+
+.feature-card h2{
+    margin-bottom:10px;
+}
