@@ -1,4 +1,17 @@
-.ticker{
+.slider{
+width:100%;
+padding:20px;
+text-align:center;
+}
+
+.slider img{
+width:95%;
+max-width:1200px;
+height:320px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+}.ticker{
     background:#ff9800;
     color:#fff;
     padding:10px;
