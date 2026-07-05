@@ -1,4 +1,25 @@
-*{
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .header{
+background:#000;
+}
+
+.dark .hero{
+background:#1f1f1f;
+color:white;
+}
+
+.dark .card{
+background:#2a2a2a;
+color:white;
+}
+
+.dark footer{
+background:#000;
+}*{
 margin:0;
 padding:0;
 box-sizing:border-box;
