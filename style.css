@@ -220,3 +220,13 @@ transition:0.3s;
 background:#ff5722;
 transform:scale(1.08);
 }
+.top-bar{
+background:#ff5722;
+color:white;
+padding:10px;
+text-align:center;
+font-weight:bold;
+position:sticky;
+top:0;
+z-index:1000;
+}
