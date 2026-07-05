@@ -1,4 +1,27 @@
-.dark{
+.dashboard{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.box{
+background:#ffffff;
+padding:20px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+.dark .box{
+background:#2b2b2b;
+color:white;
+}.dark{
 background:#121212;
 color:white;
 }
